@@ -44,7 +44,7 @@ class ListViewModel: ObservableObject {
             mapRegion = MKCoordinateRegion(center: contact.coordinates!, span: mapSpan)
         }
         else{
-            mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 41.1916380244206, longitude: -111.94397917339016), span: mapSpan)
+            mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 41.1916380244206, longitude: -111.94397917339016), span: mapSpan) //unrecognized addresses simply show WSU
         }
     }
     

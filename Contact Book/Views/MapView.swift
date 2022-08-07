@@ -21,13 +21,17 @@ struct MapView: View {
                 Text("\(contact.first) \(contact.last)")
                     .font(.title2)
                     .fontWeight(.bold)
-                Text("\(contact.address), \(contact.city), \(contact.state) \(contact.zip)")
+                if(contact.coordinates != nil){
+                    Text("\(contact.address), \(contact.city), \(contact.state) \(contact.zip)")
+                }else{
+                    Text("Address not recognized. Showing WSU.")
+                }
             }
             HStack{
                 Map(coordinateRegion: $vm.mapRegion,
                     annotationItems: vm.contactList,
                     annotationContent: {contact in
-                    MapMarker(coordinate: contact.coordinates ?? CLLocationCoordinate2D(latitude: 41.1916380244206, longitude: -111.94397917339016)) //default location is WSU
+                    MapMarker(coordinate: contact.coordinates ?? CLLocationCoordinate2D(latitude: 41.1916380244206, longitude: -111.94397917339016)) //default location is WSU for unrecognized addresses
                 })
             }
         }
