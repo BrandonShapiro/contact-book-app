@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685F8DDB289F341800656004 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685F8DDA289F341800656004 /* TabbedView.swift */; };
 		68D28539289ED6BC00FEDAF7 /* Contact_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28538289ED6BC00FEDAF7 /* Contact_BookApp.swift */; };
-		68D2853B289ED6BC00FEDAF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2853A289ED6BC00FEDAF7 /* ContentView.swift */; };
 		68D2853D289ED6C000FEDAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D2853C289ED6C000FEDAF7 /* Assets.xcassets */; };
 		68D28540289ED6C000FEDAF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D2853F289ED6C000FEDAF7 /* Preview Assets.xcassets */; };
 		68D2854A289ED6C000FEDAF7 /* Contact_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28549289ED6C000FEDAF7 /* Contact_BookTests.swift */; };
 		68D28554289ED6C000FEDAF7 /* Contact_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28553289ED6C000FEDAF7 /* Contact_BookUITests.swift */; };
 		68D28556289ED6C000FEDAF7 /* Contact_BookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28555289ED6C000FEDAF7 /* Contact_BookUITestsLaunchTests.swift */; };
+		68D28566289ED81A00FEDAF7 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28565289ED81A00FEDAF7 /* ListView.swift */; };
+		68D28568289ED82E00FEDAF7 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28567289ED82E00FEDAF7 /* RowView.swift */; };
+		68D2856A289ED86200FEDAF7 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28569289ED86200FEDAF7 /* ContactModel.swift */; };
+		68D2856E289EDF2500FEDAF7 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2856D289EDF2500FEDAF7 /* ListViewModel.swift */; };
+		68D28570289EE00100FEDAF7 /* AddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2856F289EE00000FEDAF7 /* AddContactView.swift */; };
+		68D28572289EE02400FEDAF7 /* EditContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28571289EE02400FEDAF7 /* EditContactView.swift */; };
+		68D28574289EE0B100FEDAF7 /* InventoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28573289EE0B100FEDAF7 /* InventoryCache.swift */; };
+		68D28576289EF23000FEDAF7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D28575289EF23000FEDAF7 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		685F8DDA289F341800656004 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
 		68D28535289ED6BC00FEDAF7 /* Contact Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Contact Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D28538289ED6BC00FEDAF7 /* Contact_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_BookApp.swift; sourceTree = "<group>"; };
-		68D2853A289ED6BC00FEDAF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68D2853C289ED6C000FEDAF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D2853F289ED6C000FEDAF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68D28545289ED6C000FEDAF7 /* Contact BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contact BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,14 @@
 		68D2854F289ED6C000FEDAF7 /* Contact BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Contact BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D28553289ED6C000FEDAF7 /* Contact_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_BookUITests.swift; sourceTree = "<group>"; };
 		68D28555289ED6C000FEDAF7 /* Contact_BookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact_BookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68D28565289ED81A00FEDAF7 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		68D28567289ED82E00FEDAF7 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		68D28569289ED86200FEDAF7 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		68D2856D289EDF2500FEDAF7 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		68D2856F289EE00000FEDAF7 /* AddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactView.swift; sourceTree = "<group>"; };
+		68D28571289EE02400FEDAF7 /* EditContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactView.swift; sourceTree = "<group>"; };
+		68D28573289EE0B100FEDAF7 /* InventoryCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCache.swift; sourceTree = "<group>"; };
+		68D28575289EF23000FEDAF7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +111,9 @@
 			isa = PBXGroup;
 			children = (
 				68D28538289ED6BC00FEDAF7 /* Contact_BookApp.swift */,
-				68D2853A289ED6BC00FEDAF7 /* ContentView.swift */,
+				68D28564289ED74900FEDAF7 /* Models */,
+				68D28563289ED73E00FEDAF7 /* ViewModels */,
+				68D28562289ED72700FEDAF7 /* Views */,
 				68D2853C289ED6C000FEDAF7 /* Assets.xcassets */,
 				68D2853E289ED6C000FEDAF7 /* Preview Content */,
 			);
@@ -125,6 +143,36 @@
 				68D28555289ED6C000FEDAF7 /* Contact_BookUITestsLaunchTests.swift */,
 			);
 			path = "Contact BookUITests";
+			sourceTree = "<group>";
+		};
+		68D28562289ED72700FEDAF7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68D28565289ED81A00FEDAF7 /* ListView.swift */,
+				68D28567289ED82E00FEDAF7 /* RowView.swift */,
+				68D2856F289EE00000FEDAF7 /* AddContactView.swift */,
+				68D28571289EE02400FEDAF7 /* EditContactView.swift */,
+				68D28575289EF23000FEDAF7 /* MapView.swift */,
+				685F8DDA289F341800656004 /* TabbedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68D28563289ED73E00FEDAF7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				68D2856D289EDF2500FEDAF7 /* ListViewModel.swift */,
+				68D28573289EE0B100FEDAF7 /* InventoryCache.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		68D28564289ED74900FEDAF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				68D28569289ED86200FEDAF7 /* ContactModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D2853B289ED6BC00FEDAF7 /* ContentView.swift in Sources */,
+				685F8DDB289F341800656004 /* TabbedView.swift in Sources */,
+				68D28566289ED81A00FEDAF7 /* ListView.swift in Sources */,
+				68D28574289EE0B100FEDAF7 /* InventoryCache.swift in Sources */,
+				68D28568289ED82E00FEDAF7 /* RowView.swift in Sources */,
+				68D2856E289EDF2500FEDAF7 /* ListViewModel.swift in Sources */,
+				68D28570289EE00100FEDAF7 /* AddContactView.swift in Sources */,
+				68D28572289EE02400FEDAF7 /* EditContactView.swift in Sources */,
+				68D2856A289ED86200FEDAF7 /* ContactModel.swift in Sources */,
+				68D28576289EF23000FEDAF7 /* MapView.swift in Sources */,
 				68D28539289ED6BC00FEDAF7 /* Contact_BookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
