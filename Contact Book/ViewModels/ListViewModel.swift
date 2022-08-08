@@ -35,7 +35,7 @@ class ListViewModel: ObservableObject {
     //function to update the location
     func updateCurrentContact(contact: ContactModel){
         currentContact = contact
-        print("Current contact updated to: \(contact.first) \(contact.last)")
+        //print("Current contact updated to: \(contact.first) \(contact.last)")
     }
     
     //function to update the map region based on which Contact is passed in

@@ -16,11 +16,8 @@ struct ListView: View {
             List{
                 ForEach(listViewModel.contactList){contact in
                     NavigationLink(
-                        destination: {TabbedView(contact: contact)},
-                        label: {RowView(contact: contact)
-                                .simultaneousGesture(TapGesture().onEnded{ listViewModel.updateCurrentContact(contact: contact)
-                                })
-                        })
+                        destination: {TabbedView(contact: contact).onAppear{listViewModel.updateCurrentContact(contact: contact)}},
+                        label: {RowView(contact: contact)})
                 }
                 .onDelete(perform: listViewModel.deleteContact)
             }
